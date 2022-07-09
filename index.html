@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="content">
+            <h2>Hey</h2>
+            <h3>A Word へようこそ</h3>
+
+            <a href="./Login/login.php">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Login
+            </a>
+            <br>
+            <a href="./Register/welcome.php">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Register
+            </a>
+        </div>
+    </div>
+
+    <!-- JSの読みこみ -->
+    <script src="./vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+
+</html>
